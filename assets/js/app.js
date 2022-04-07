@@ -95,7 +95,7 @@ $(function () {
         }]
     });
     $('.js-reviews-partners-slider').slick({
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1,
         dots: false,
         arrows: true,
@@ -182,5 +182,10 @@ $(function () {
             });
         }
     });
+
+    $('#modalMd2 input').on('input', function() {
+        if($(this).val() == '') $(this).css('border','1px solid red');
+    });
+
 });
 //# sourceMappingURL=app.js.map
