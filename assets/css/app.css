@@ -412,7 +412,7 @@ h2 {
 
 .banner {
   padding: 100px 0;
-  height: calc(100vh - 160px);
+  height: calc(100vh - 300px);
   min-height: 750px;
   position: relative; }
   .banner-o {
@@ -429,7 +429,7 @@ h2 {
         .banner-o .banner__btn {
           margin-top: 25px; } }
     .banner-o.tw .banner {
-      margin-bottom: 80px; }
+      margin-bottom: 30px; }
   .banner-ov {
     position: relative;
     overflow: hidden; }
@@ -571,7 +571,7 @@ h2 {
       margin-top: 12px;
       margin-left: 330px;
       position: absolute;
-      top: 10px;
+      top: 58px;
       text-align: center; }
       .banner__btn-dop:before {
         content: '';
@@ -579,7 +579,7 @@ h2 {
         height: 39px;
         display: block;
         position: absolute;
-        top: 42px;
+        top: -6px;
         left: -72px;
         z-index: 1;
         background-image: url("../images/arrow-btn.png");
@@ -600,6 +600,7 @@ h2 {
     bottom: 50px;
     left: 0;
     right: 0;
+    top: 615px;
     margin: auto;
     z-index: 3; }
     .banner__mouse:before {
