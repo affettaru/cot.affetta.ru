@@ -836,7 +836,7 @@ h2 {
     background-image: none; }
 
 .benefit {
-  margin: 144px 0;
+  margin: 144px 0 60px;
   position: relative; }
   .benefit + .about {
     padding-top: 0; }
@@ -5750,4 +5750,13 @@ input[type="checkbox"] {
 
 .mtb-conteiner-20{
   margin: 20px 0;
+}
+
+
+.show-more-content {
+  display: none;
+}
+
+.show-more-content.show {
+  display: block;
 }

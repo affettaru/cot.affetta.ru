@@ -187,5 +187,10 @@ $(function () {
         if($(this).val() == '') $(this).css('border','1px solid red');
     });
 
+    $('.js-show-more').on('click', function() {
+        $(this).parent().find('.show-more-content').toggleClass('show');
+    });
+
+
 });
 //# sourceMappingURL=app.js.map
